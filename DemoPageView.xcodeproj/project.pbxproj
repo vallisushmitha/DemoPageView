@@ -14,6 +14,7 @@
 		37D2FEFF1CFC361600C8D391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D2FEFD1CFC361600C8D391 /* LaunchScreen.storyboard */; };
 		37D2FF0A1CFC361600C8D391 /* DemoPageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2FF091CFC361600C8D391 /* DemoPageViewTests.swift */; };
 		37D2FF151CFC361700C8D391 /* DemoPageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2FF141CFC361700C8D391 /* DemoPageViewUITests.swift */; };
+		37D2FF231CFC3D4000C8D391 /* ImagesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2FF221CFC3D4000C8D391 /* ImagesPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		37D2FF101CFC361700C8D391 /* DemoPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D2FF141CFC361700C8D391 /* DemoPageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPageViewUITests.swift; sourceTree = "<group>"; };
 		37D2FF161CFC361700C8D391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D2FF221CFC3D4000C8D391 /* ImagesPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				37D2FEF41CFC361600C8D391 /* AppDelegate.swift */,
 				37D2FEF61CFC361600C8D391 /* ViewController.swift */,
+				37D2FF221CFC3D4000C8D391 /* ImagesPageViewController.swift */,
 				37D2FEF81CFC361600C8D391 /* Main.storyboard */,
 				37D2FEFB1CFC361600C8D391 /* Assets.xcassets */,
 				37D2FEFD1CFC361600C8D391 /* LaunchScreen.storyboard */,
@@ -193,7 +196,6 @@
 				TargetAttributes = {
 					37D2FEF01CFC361400C8D391 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = JYBV57ZJUU;
 					};
 					37D2FF041CFC361600C8D391 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -261,6 +263,7 @@
 			files = (
 				37D2FEF71CFC361600C8D391 /* ViewController.swift in Sources */,
 				37D2FEF51CFC361600C8D391 /* AppDelegate.swift in Sources */,
+				37D2FF231CFC3D4000C8D391 /* ImagesPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoPageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.DemoPageView;
@@ -415,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoPageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.DemoPageView;
